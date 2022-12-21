@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA62976E"
+    android:orientation="vertical"
+    tools:context=".Newuser">
+
+    <TextView
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:ems="15" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="password"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:ems="15"
+        android:inputType="textPassword" />
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/summit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:text="S U M I T" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:id="@+id/loginpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="HOME PAGE"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

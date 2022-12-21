@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA060632"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+    <TextView
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="   Simple \nLogin page"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:text="E X I T"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/signupOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="New Account\n     Sign up"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

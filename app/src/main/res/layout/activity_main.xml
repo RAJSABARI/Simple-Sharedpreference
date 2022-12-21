@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA060632"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="WELCOME"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:text="username"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edituser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="r"
+        android:ems="15"
+        android:hint="Enter your user name"
+        android:textColor="@color/white"
+        android:textColorHint="#423E3E"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edituser"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:text="password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:hint="Enter yourpassword"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="#423E3E" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#D52F2F"
+        android:ems="15"
+        android:text="log_in"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="NewUser?Sign up"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
